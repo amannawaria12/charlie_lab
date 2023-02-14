@@ -37,6 +37,7 @@ $(function () {console.log("bring the wow");
     $("#resetGame").click(function () {
     console.log("clicked button");
     counts = 0;
+    alert("You hit reset button");
     $("span.count").text(counts);
     $("#gameOutput").text("");
   });
